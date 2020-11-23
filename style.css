@@ -3,8 +3,18 @@
 
 @font-face {
 	font-family: 'mifuente';
-	src: url('star.ttf') format('truetype');
+	src: url('fonts/star.ttf') format('truetype');
 }
+@font-face {
+	font-family: exotc;
+	src: url('fonts/Exotc.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: impact;
+	src: url('fonts/impact.ttf') format('truetype');
+}
+
 a:visited {
     color: white;
 }
@@ -39,14 +49,14 @@ a:visited {
 .menuitem:hover {
 	
 	background-color: #FFA600;
-	font-size: 60pt;
+	font-size: 40pt;
 	color:black;
 	
 	}
 .elemento{
     border-radius: 15px;
     font-family: mifuente;
-    font-size: 65pt;
+    font-size: 60pt;
     color: white;
     background-color: black;
     align-content: center;
@@ -73,7 +83,7 @@ a:visited {
 .texto{
 	font-family: mifuente;
 	color: white;
-    font-size: 40pt;
+    font-size: 36pt;
     background-color: #4D4D4D;
     text-align: center;
 	margin-top: 4px;
@@ -87,14 +97,14 @@ a:visited {
 	opacity: 85%;
 }
 .descripcion{
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-family:exotc;
 	font-size: 25pt;
 	color: black;
 	
 }
 .precio{
-    font-family: "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", "sans-serif";
-    font-size: 70pt;
+    font-family: Impact;
+    font-size: 60pt;
     color: white;
     background-color: black;
     display: inline-block;
@@ -103,8 +113,3 @@ a:visited {
     text-align: right;
 	position: relative;
 }
-
-
-
-
-
