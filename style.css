@@ -24,12 +24,14 @@ a:visited {
     color: white;
 }
 .frente{
-	opacity: 100%;
+	opacity: 95%;
 	background-color: #4d4d4d;
 	align-content:center;
 	align-items: center;
 	text-align: center;
 	color: white;
+	font-family: cfdiamond;
+	font-size: 60pt;
 }
 .menuitem{
     border-radius: 15px;
@@ -116,11 +118,23 @@ a:visited {
     font-size: 60pt;
     color: white;
     background-color: black;
-    display: block;
+    display: inline-block;
     border-radius: 10px;
     text-indent: 5px;
     text-align: right;
     margin-bottom: 10px;	
+	
+}
+.cantidad{    
+	font-family: Impact;
+    font-size: 25pt;
+    color: white;
+    background-color: black;
+    display: block;
+    border-radius: 10px;
+    text-indent: 5px;
+    text-align: right;
+    margin-bottom: 10px;
 	
 }
 
@@ -157,7 +171,7 @@ a:visited {
 }
 
 .trago{
-    width: 40%;
+    width: 45%;
     position: relative;
     border-radius: 15px;
     font-family: mifuente;
@@ -187,7 +201,7 @@ a:visited {
 }
 
 .tragocorto{
-    width: 40%;
+    width: 45%;
     position: relative;
     border-radius: 15px;
     font-family: mifuente;
