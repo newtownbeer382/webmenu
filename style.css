@@ -19,7 +19,7 @@ a:visited {
 .menuitem{
     border-radius: 15px;
     font-family: mifuente;
-    font-size: 36pt;
+    font-size: 45pt;
     color: white;
     background-color: black;
     align-content: center;
@@ -73,7 +73,7 @@ a:visited {
 .texto{
 	font-family: mifuente;
 	color: white;
-    font-size: 36pt;
+    font-size: 40pt;
     background-color: #4D4D4D;
     text-align: center;
 	margin-top: 4px;
@@ -94,7 +94,7 @@ a:visited {
 }
 .precio{
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-    font-size: 40px;
+    font-size: 40pt;
     color: white;
     background-color: black;
     display: inline-block;
