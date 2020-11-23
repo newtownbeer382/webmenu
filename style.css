@@ -59,6 +59,149 @@ a:visited {
 	
 	}
 .elemento{
+	
+    border-radius: 15px;
+    font-family: mifuente;
+    font-size: 60pt;
+    color: white;
+    background-color: black;
+    align-content: center;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: left;
+    text-indent: 7px;
+	cursor: pointer;
+    transition-duration: 0.4s;
+
+ }
+.elemento:hover,.elemento:active{
+	background-color: white;
+	color:black;
+	opacity: 100%;
+	
+}
+.texto{
+	font-family: cfdiamond;
+	color: white;
+    font-size: 50pt;
+    background-color: #4D4D4D;
+    text-align: center;
+	margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+	opacity: 85%;
+	display: inline-block;
+	
+}
+.descripcion{
+	font-family:exotc;
+	font-size: 45pt;
+	color: black;
+	
+	
+}
+.precio{
+    font-family: Impact;
+    font-size: 60pt;
+    color: white;
+    background-color: black;
+    display: block;
+    border-radius: 10px;
+    text-indent: 5px;
+    text-align: right;
+    margin-bottom: 10px;	
+	
+}
+
+.volver{
+    border-radius: 15px;
+    font-family: cfdiamond;
+    font-size: 70pt;
+    color: white;
+    background-color: black;
+    align-content: center;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: center;
+    text-indent: 7px;
+	cursor: pointer;
+    transition-duration: 0.4s;
+ }
+.volver:hover {
+	
+	background-color: green;
+	font-size: 85pt;
+	color:black;
+	
+	}
+.separador{
+	background-image: image("img/guardablanca.png")
+	
+}
+
+.trago{
+    width: 30%;
+    position: relative;
+    border-radius: 15px;
+    font-family: mifuente;
+    font-size: 60pt;
+    color: white;
+    background-color: black;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: left;
+    text-indent: 7px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    display: inline-block;
+    vertical-align: top;
+ }
+.trago:hover,.trago:active{
+	background-color: cadetblue;
+	color:black;
+	opacity: 100%;
+       
+}
+.whisky{}
+.gintonic{}
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: center;
+    text-indent: 7px;
+	cursor: pointer;
+    transition-duration: 0.4s;
+ }
+.menuitem:hover {
+	
+	background-color: #FFA600;
+	font-size: 85pt;
+	color:black;
+	
+	}
+.elemento{
     border-radius: 15px;
     font-family: mifuente;
     font-size: 60pt;
