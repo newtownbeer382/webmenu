@@ -2,8 +2,8 @@
 /* CSS Document */
 
 @font-face {
-  font-family: mifuente;
-  src: url("star.ttf");
+	font-family: 'mifuente';
+	src: url('star.ttf') format('truetype');
 }
 a:visited {
     color: white;
