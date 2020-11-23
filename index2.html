@@ -12,16 +12,30 @@ body {
 }
 
 </style><link href="stylesheet.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+</style>
 </head>
 
 <body >
 <div class="frente">
 <img src="img/logoinicio.png" width="75%" height="100%" alt=""/>
-<div>seguinos en Instagram <a href="https://www.instagram.com/newtownbeer/">@newtownbeer</a></div>
+<div class="descripcion">seguinos en Instagram <a href="https://www.instagram.com/newtownbeer/">@newtownbeer</a></div>
 
 </div>
 	
-<div class="texto" id="inicio"><img src="img/top.png"  alt=""/>
+<div class="frente" id="inicio"><img src="img/top.png"  alt=""/>
 <div>Menu Digital</div>
 <div class="menuitem" ><a href="#fritas">Papas Fritas</a></div>
 <div class="menuitem" ><a href="#picar">Para Picar</a></div>
@@ -29,60 +43,59 @@ body {
 <div class="menuitem" ><a href="#pizzanesa">Pizzanesas</a></div>
 <div class="menuitem" ><a href="#pizzas">Pizzas</a></div>
 <div class="menuitem" ><a href="#ensalada">Ensaladas</a></div>
-<div class="menuitem" ><a href="#bebidas">Bebidas</div>
-<div class="menuitem" ><a href="#whisky">Whisky</div>
-<div class="menuitem" ><a href="#gintonic">Gin Tonic</div>
-<div class="menuitem" ><a href="#tragos">Tragos</div>
-<div class="menuitem" ><a href="#cafeteria">Cafeteria</div>
+<div class="menuitem" ><a href="#bebidas">Bebidas</a></div>
+<div class="menuitem" ><a href="#whisky">Whisky</a></div>
+<div class="menuitem" ><a href="#gintonic">Gin Tonic</a></div>
+<div class="menuitem" ><a href="#tragos">Tragos</a></div>
+<div class="menuitem" ><a href="#cafeteria">Cafeteria</a></div>
 <img src="img/bottom.png" width="272" height="22" alt=""/>
 </div>
-	<!--termina menu-->
+<!--termina menu-->
 	
+	<!--Arranca Papas Fritas-->
 <div class="texto" id="fritas"><img src="img/top.png"  alt=""/>
-	<div class="texto">
-	  Papas fritas
-  </div>
+	<div class="texto">Papas fritas</div>
 	
     <div class="elemento">Papas Bravas  <div class="descripcion">Papas Fritas con salsa picante</div> 
-      		<div class="precio">$300</div>
+    <div class="precio">$300</div>
     </div>
 	
 	 <div class="elemento">Papas Especiadas <div class="descripcion">Papas Fritas con salsa chimichurri</div> 
-      		<div class="precio">$320</div>
+     <div class="precio">$320</div>
      </div>
 	
 	<div class="elemento">Papas Newtown <div class="descripcion">Papas Fritas con salsa blanca cantimpalo, morron y nuez moscada</div> 
-      		<div class="precio">$320</div>
-  </div>
+    <div class="precio">$320</div>
+    </div>
 
 	<div class="elemento">Papas Cheddar<div class="descripcion">Papas Fritas con salsa cheddar, panceta y verdeo</div> 
-      		<div class="precio">$320</div>
-  </div>	
+    <div class="precio">$320</div>
+    </div>	
 	
 	<div class="elemento">Papas C/Hongos<div class="descripcion">Papas Fritas con salsa de hongos</div> 
-      		<div class="precio">$320</div>
-  </div>
+    <div class="precio">$320</div>
+  	</div>
 	
 	<div class="elemento">Papas Gourmet<span class="descripcion">Papas Fritas con salsa blanca, carne desmechada, cherrys confitados, cebolla caramelizada y hongos</span> 
-      		<div class="precio">$350</div>
-  </div>
+    <div class="precio">$350</div>
+    </div>
   
-	
 	<div class="volver"><a href="#inicio">menu principal</a></div>
-<img src="img/bottom.png" width="272" height="22" alt=""/> 
+	<img src="img/bottom.png" width="272" height="22" alt=""/> 
 </div> <!--termina papas fritas-->
 	
-	<div class="texto" id="picar">Para Picar<!--empieza picar-->
-	    <div class="elemento">Bastones Muzzarella<span class="descripcion"><p>Rebosados en mix de cereales con barbacoa & queso crema</p></span>
-	    		<div class="precio"> $370</div>
-    </div>
-		
-	<div class="elemento">Bastones Pollo<span class="descripcion"><p>Rebosados en mix de cereales con barbacoa & queso crema</p></span>
-	    		<div class="precio"> $370</div>
-    </div>
 	
-	<div class="volver"><a href="#inicio">menu principal</a></div>
-	<img src="img/bottom.png" width="272" height="22" alt=""/>
+<div class="texto" id="picar">Para Picar<!--empieza picar-->
+	    <div class="elemento">Bastones Muzzarella<span class="descripcion"><p>Rebosados en mix de cereales con barbacoa & queso crema</p></span>
+	    <div class="precio"> $370</div>
+  		</div>
+		
+	    <div class="elemento">Bastones Pollo<span class="descripcion"><p>Rebosados en mix de cereales con barbacoa & queso crema</p></span>
+	    		<div class="precio"> $370</div>
+        </div>
+	
+	    <div class="volver"><a href="#inicio">menu principal</a></div>
+	    <img src="img/bottom.png" width="272" height="22" alt=""/>
 		
 </div><!--termina picar-->
 <p></p>
@@ -90,47 +103,51 @@ body {
 <div class="texto" id="burguer"><img src="img/top.png"  alt=""/><!--arranca burguers-->
 	<div>Burguers</div>
 
-	  <div class="elemento">Burguer Completa<span class="descripcion"><p>Lechuga, tomate, jamon, queso y huevo.</p></span>
+	 <div class="elemento">Burguer Completa<span class="descripcion"><p>Lechuga, tomate, jamon, queso y huevo.</p></span>
 	    <div class="precio">Mediana $300</div>
 		<div class="precio">Grande $400</div>
-    </div>
+     </div>
+	
 	<div class="elemento">Burguer Americana<span class="descripcion"><p>Lechuga, cebolla caramelizada, panceta y cheddar</p></span>
 	    <div class="precio">Mediana $300</div>
 		<div class="precio">Grande $400</div>
     </div>
+	
 	<div class="elemento">Burguer Newtown<span class="descripcion"><p>Rucula, muzzarella, aceitunas, morron y huevo</p></span>
 	    <div class="precio">Mediana $300</div>
 		<div class="precio">Grande $400</div>
     </div>
+	
 	<div class="elemento">Doble Newtown<span class="descripcion"><p>Doble medallon carne, lechuga, tomate, cebolla, muzzarella, panceta, cheddar y huevo</p></span>
 	    
-		<div class="precio">Grande $400</div>
+		<div class="precio">Grande $450</div>
     </div>
 	
 	<div class="elemento">Triple Newtown<span class="descripcion"><p>Triple medallon carne, lechuga, tomate, cebolla, muzzarella, panceta, cheddar,rucula, aceitunas y huevo</p></span>
 	    
-		<div class="precio">Grande $400</div>
+		<div class="precio">Grande $500</div>
     </div>
-<div class="elemento">Burguer Veggie<span class="descripcion"><p>Medallon vegano, lechuga, salteado de vegetales, queso crema</p></span>
-	    
-		<div class="precio">Grande $400</div>
-  </div>
+    <div class="elemento">Burguer Veggie<span class="descripcion"><p>Medallon vegano, lechuga, salteado de vegetales, queso crema</p></span>
+	<div class="precio">Grande $400</div>
+    </div>
+	
 	<div class="elemento">Doble Veggie<span class="descripcion"><p>Lechuga, tomate, cebolla, muzzarella, aceitunas, cheddar y morron</p></span>
 	    
-		<div class="precio">Grande $400</div>
+		<div class="precio">Grande $450</div>
 	</div>
-<div class="volver"><a href="#inicio">menu principal</a></div>
-<img src="img/bottom.png" width="272" height="22" alt=""/>	
-</div>	<!--termina Burguers-->
+	
+    <div class="volver"><a href="#inicio">menu principal</a></div>
+    <img src="img/bottom.png" width="272" height="22" alt=""/>	
+    </div>	<!--termina Burguers-->
 	<p></p>
 	
-<div class="texto" id="pizzanesa"><img src="img/top.png"  alt=""/><!--arranca Pizzanesa-->
+    <div class="texto" id="pizzanesa"><img src="img/top.png"  alt=""/><!--arranca Pizzanesa-->
 	<div>Pizzanesas</div>
 	
 	<!--A Caballo -->
 	 <div class="elemento">	<p>Pizzanesa a Caballo</p><span class="descripcion"><p>Con huevo frito y papas fritas</p></span>
 	    <div class="precio"> $600</div>
-		<div class="precio">Fritas Extra $150</div>
+		
     </div>
 	
 	<!--Especial -->
@@ -191,7 +208,7 @@ body {
 	<div class="texto" id="pizzas"><img src="img/top.png"  alt=""/><!--arranca Pizzas-->
 	<div>Pizzas</div>
 	
-<!--Especial -->
+    <!--Especial -->
 	<div class="elemento">	<p>Pizza Especial</p><span class="descripcion"><p>Salsa de tomate, muzzarella, jamon y morrones</p></span>
 	    <div class="precio"> $440</div>
 	</div>
@@ -212,7 +229,7 @@ body {
     </div>
 		
 		<!--Calabresa -->
-	<div class="elemento">	<p>Pizzanesa Calabresa</p><span class="descripcion"><p>Salsa de tomates, muzzarella, cantimpalo y rodajas de tomate</p></span>
+	<div class="elemento">	<p>Pizza Calabresa</p><span class="descripcion"><p>Salsa de tomates, muzzarella, cantimpalo y rodajas de tomate</p></span>
 	    <div class="precio"> $450</div>
     </div>
 		
@@ -330,85 +347,113 @@ body {
 	<!--boton menu principal-->	
 	<img src="img/bottom.png" width="272" height="22" alt=""/>	
 	
-<!--arranca tragos y aperitivos-->	
 	
-	
+<!--arranca tragos y aperitivos-->
 <div class="texto" id="tragos"><img src="img/top.png"  alt=""/>
 	<div>Aperitivos y tragos</div>	
 	
-<div class="trago"><!--fernet-->  
+    <div class="trago"><!--fernet-->  
 	<div class="elemento">fernet</div>
 	<div class="descripcion">Fernet Branca con Coca cola</div>
-  	<div class="precio"> $250</div>
-	<div class="precio"> 500cc</div>
+  	<div class="precio"> $250<div class="cantidad"> 500cc</div>
+	</div>
+	</div><!--termina fernet-->
 	
-  </div>
+	<div class="trago"><!--campari-->  
+	<div class="elemento">campari</div>
+	<div class="descripcion">Aperitivo campari con jugo de naranja</div>
+	<div class="precio"> $270<div class="cantidad"> 500cc</div>
+	</div>
+	</div><!--termina campari-->
+	
+	<div class="trago"><!--cynar-->  
+	<div class="elemento">Cynar Julep</div>
+	<div class="descripcion">Aperitivo aperitivo cinar con pomelo y menta</div>
+	<div class="precio"> $250<div class="cantidad"> 500cc</div>
+	</div>
+	</div><!--termina cynar-->
+
+	<div class="trago"><!--cuba libre-->  
+	<div class="elemento">Cuba Libre</div>
+	<div class="descripcion">Ron dorado, Coca cola y limon</div>
+	<div class="precio"> $250<div class="cantidad"> 500cc</div>	
+	</div>
+	</div><!--termina cuba libre-->
+	
+	<div class="trago"><!--gancia-->  
+	<div class="elemento">Gancia</div>
+	<div class="descripcion">Aperitivo americano Gancia, strite y limon</div>
+	<div class="precio"> $250<div class="cantidad"> 500cc</div>
+	</div>
+	</div><!--termina gancia-->
+
+	<div class="trago"><!--Jagger Newtown-->  
+	<div class="elemento">Jagger Newtown</div>
+	<div class="descripcion">Jaggermaister, tonica, naranja & menta</div>
+	<div class="precio"> $250<div class="cantidad"> 500cc</div>	
+	</div>
+	</div><!--termina jagger-->
 		
-  
+	<div class="trago"><!--Daikiri-->  
+	<div class="elemento">Daikiri</div>
+	<div class="descripcion">Vodka Oak Newtown, frutos rojos y hielo</div>
+	<div class="precio"> $250<div class="cantidad"> 500cc</div>	
+	</div>
+	</div><!--termina daikiri-->
+	
+	<div class="tragocorto"><!--GoodMorining-->  
+	<div class="elemento">N1 Good Morning</div>
+	<div class="descripcion">Vodka Oak Newtown, agua tonica y jugo de naranja</div>
+	<div class="precio"> $150
+		<div class="cantidad">250cc</div>
+	</div>
+		<div class="precio">$200
+		<div class="cantidad">500cc</div>	
+		</div>
+	</div><!--termina Goodmorning-->
 
-<!--termina fernet-->
-	
-<div class="trago"><!--campari-->  
-<div class="elemento">campari</div>
-<div class="descripcion">Aperitivo campari con jugo de naranja</div>
-<div class="precio"> $270</div>
-<div class="precio"> 500cc</div>
-  </div><!--termina campari-->
-	
-<div class="trago"><!--cynar-->  
-<div class="elemento">Cynar Julep</div>
-<div class="descripcion">Aperitivo aperitivo cinar con pomelo y menta</div>
-<div class="precio"> $250</div>
-<div class="precio"> 500cc</div>
-</div><!--termina cynar-->
+	<div class="tragocorto"><!--Lemon Vodka-->  
+	<div class="elemento">N2 Lemon Vodka</div>
+	<div class="descripcion">Vodka neutro Newtown, agua tonica y jugo de limon & menta</div>
+		 <div class="precio"> $150
+		 <div class="cantidad">250cc</div>
+		 </div>
+		 <div class="precio">$200
+		 <div class="cantidad">500cc</div>	
+		 </div>
+	</div><!--termina lemon vodka-->
 
-
+	<div class="tragocorto"><!--maracuya sunrise-->  
+	<div class="elemento">N3 maracuya sunrise</div>
+	<div class="descripcion">Vodka neutro Newtown, agua tonica y pulpa de maracuya</div>
+		 <div class="precio"> $150
+		 <div class="cantidad">250cc</div>
+		 </div>
+	     <div class="precio">$200
+		 <div class="cantidad">500cc</div>	
+		 </div>
+	</div><!--termina maracuya sunrise-->
 	
-<div class="trago"><!--cuba libre-->  
-<div class="elemento">Cuba Libre</div>
-<div class="descripcion">Ron dorado, Coca cola y limon</div>
-<div class="precio"> $250</div>
-<div class="precio"> 500cc</div>	
-</div><!--termina cuba libre-->
+	<div class="tragocorto"><!--strong cherry-->  
+	<div class="elemento">N4 strong cherry</div>
+	<div class="descripcion">Vodka neutro Newtown, Vodka Oak Newtown, Tonica y cerezas al marraschino</div>
+		<div class="precio"> $150
+		<div class="cantidad">250cc</div>
+		</div>
+	</div><!--termina strong cherry-->
 	
-<div class="trago"><!--gancia-->  
-<div class="elemento">Gancia</div>
-<div class="descripcion">Aperitivo americano Gancia, strite y limon</div>
-<div class="precio"> $250</div>
-<div class="precio"> 500cc</div>	
-</div><!--termina gancia-->
-
-	
-<div class="trago"><!--Jagger Newtown-->  
-<div class="elemento">Jagger Newtown</div>
-<div class="descripcion">Jaggermaister, tonica, naranja & menta</div>
-<div class="precio"> $250</div>
-<div class="precio"> 500cc</div>	
-</div><!--termina jagger-->
-	
-	
-<div class="trago"><!--Daikiri-->  
-<div class="elemento">Daikiri</div>
-<div class="descripcion">Vodka Oak Newtown, frutos rojos y hielo</div>
-<div class="precio"> $250</div>
-<div class="precio"> 500cc</div>	
-</div><!--termina daikiri-->
-	
-<div class="tragocorto"><!--GoodMorining-->  
-<div class="elemento">N1 Good Morning</div>
-<div class="descripcion">Vodka Oak Newtown, agua tonica y jugo de naranja</div>
-<div class="precio">250cc $150</div>
-<div class="precio">500cc $200</div>	
-</div><!--termina daikiri-->
-
+	<div class="tragocorto"><!--slap kiwi-->  
+	<div class="elemento">N5 Slap kiwi</div>
+	<div class="descripcion">Vodka Oak Newtown, Gin Newtown y pulpa de kiwi</div>
+		<div class="precio"> $150
+		<div class="cantidad">250cc</div>
+		</div>
+	</div><!--termina strong cherry-->
 	
 	<div class="volver"><a href="#inicio">menu principal</a></div>
 	<img src="img/bottom.png" width="272" height="22" alt=""/>	
 	
 </div><!--termina tragos-->
 	
-</body>
-</html>
-
 </body>
 </html>
