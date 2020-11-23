@@ -46,7 +46,7 @@ a:visited {
 .elemento{
     border-radius: 15px;
     font-family: mifuente;
-    font-size: 70pt;
+    font-size: 65pt;
     color: white;
     background-color: black;
     align-content: center;
@@ -88,12 +88,12 @@ a:visited {
 }
 .descripcion{
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-	font-size: 16px;
+	font-size: 25pt;
 	color: black;
 	
 }
 .precio{
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    font-family: "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", "sans-serif";
     font-size: 70pt;
     color: white;
     background-color: black;
