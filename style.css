@@ -1,0 +1,366 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'mifuente';
+	src: url('fonts/star.ttf') format('truetype');
+}
+@font-face {
+	font-family: exotc;
+	src: url('fonts/Exotc.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: impact;
+	src: url('fonts/impact.ttf') format('truetype');
+}
+@font-face {
+	font-family: cfdiamond;
+	src: url('fonts/CFDiamond.ttf') format('truetype');
+}
+
+
+a:visited {
+    color: white;
+}
+.frente{
+	
+	background-color: rgba(77,77,77,0.90);
+	align-content:center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	font-family: cfdiamond;
+	font-size: 60pt;
+}
+.menuitem{
+    border-radius: 15px;
+    font-family: mifuente;
+    font-size: 70pt;
+    color: white;
+    background-color: black;
+    align-content: center;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: center;
+    text-indent: 7px;
+	cursor: pointer;
+    transition-duration: 0.4s;
+ }
+.menuitem:hover {
+	
+	background-color: #FFA600;
+	font-size: 85pt;
+	color:black;
+	
+	}
+.elemento{
+	
+    border-radius: 15px;
+    font-family: mifuente;
+    font-size: 60pt;
+    color: white;
+    background-color: black;
+    align-content: center;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: left;
+    text-indent: 7px;
+	cursor: pointer;
+    transition-duration: 0.4s;
+
+ }
+.elemento:hover,.elemento:active{
+	background-color: cornflowerblue;
+	color:black;
+	opacity: 100%;
+	
+}
+.titulo{
+	
+	display: inline-block;
+}
+.texto{
+	font-family: cfdiamond;
+	color: white;
+    font-size: 60pt;
+    background-color: rgb(77,77,77,0.85);
+    text-align: center;
+	align-content: center;
+	margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+	display: block;
+	
+}
+.descripcion{
+	font-family:exotc;
+	font-size: 45pt;
+	color: white;
+	
+	
+}
+.precio{
+    font-family: Impact;
+    font-size: 60pt;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+    text-indent: 5px;
+    text-align: right;
+	
+    margin-bottom: 10px;	
+	
+}
+.cantidad{    
+	font-family: Impact;
+    font-size: 25pt;
+    color: white;
+    background-color: black;
+    display: block;
+    border-radius: 10px;
+    text-indent: 5px;
+    text-align: right;
+    margin-bottom: 10px;
+	
+}
+
+.volver{
+    border-radius: 15px;
+    font-family: cfdiamond;
+    font-size: 70pt;
+    color: white;
+    background-color: black;
+    align-content: center;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: center;
+    text-indent: 7px;
+	cursor: pointer;
+    transition-duration: 0.4s;
+ }
+.volver:hover {
+	
+	background-color: green;
+	font-size: 85pt;
+	color:black;
+	
+	}
+
+.contenedor{
+	position: inline-blok;
+	
+}
+
+
+.separador{
+	background-image: image("img/guardablanca.png")
+	
+}
+.linea{
+    padding: 0px;
+    margin: 0px;
+}
+.linea1{
+    vertical-align: sub;
+    margin-bottom: -45px;	
+}
+.linea2{
+    vertical-align: top;
+    margin-top: -45px;	
+}
+.trago{
+    width: 45%;
+    position: relative;
+    border-radius: 15px;
+    font-family: mifuente;
+    font-size: 60pt;
+    color: white;
+    background-color: black;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: left;
+    text-indent: 7px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    display: inline-block;
+    vertical-align: top;
+ }
+.trago:hover,.trago:active{
+	background-color: cornflowerblue;
+	color:black;
+	opacity: 100%;
+       
+}
+
+.tragocorto{
+    width: 45%;
+    position: relative;
+    border-radius: 15px;
+    font-family: mifuente;
+    font-size: 60pt;
+    color: white;
+    background-color: black;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: left;
+    text-indent: 7px;
+	cursor: pointer;
+    transition-duration: 0.4s;
+    display: inline-block;
+    vertical-align: top;
+    border-top-width: 0%;
+    border-bottom-width: medium;
+}
+.tragocorto:hover,.tragocorto:active{
+	background-color:crimson;
+	color:black;
+	opacity: 100%;
+}
+.tragocorto6al{
+    width: 45%;
+    position: relative;
+    border-radius: 15px;
+    font-family: mifuente;
+    font-size: 60pt;
+    color: white;
+    background-color: black;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: left;
+    text-indent: 7px;
+	cursor: pointer;
+    transition-duration: 0.4s;
+    display: inline-block;
+    vertical-align: top;
+    border-top-width: 0%;
+	border-bottom-width: medium;
+}
+.tragocorto6al:hover{
+	background-color:darkgoldenrod;
+	color:black;
+	opacity: 100%;
+}
+
+.whisky{}
+
+.gintonic{
+    width: 45%;
+	height: 100%;
+    position: relative;
+    border-radius: 15px;
+    font-family: mifuente;
+    font-size: 60pt;
+    color: white;
+    background-color: black;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: left;
+    text-indent: 7px;
+	cursor: pointer;
+    transition-duration: 0.4s;
+    display: inline-block;
+    vertical-align: top;
+    border-top-width: 0%;
+	border-bottom-width: medium;
+}
+
+.gintonic:hover{
+	background-color:darkgoldenrod;
+	color:black;
+	opacity: 100%;
+}
+
+.gintonicesp{
+    width: 45%;
+	height: inherit;
+    border-width: medium;
+	border:#000000;
+	border-style: solid;
+    position: relative;
+    border-radius: 15px;
+    font-family: mifuente;
+    font-size: 60pt;
+    color: white;
+    background-color: black;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: left;
+    text-indent: 7px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    display: inline-block;
+    vertical-align: top;
+    border-top-width: 0%;
+    border-bottom-width: medium;	
+}
+
+.gintonicesp:hover{
+	background-color:darkred;
+	color:darkgoldenrod;
+	
+	}
+
+.imagenhalf{
+	width: 45%;
+	display: inline-block;
+	
+	
+	
+}
+
+
