@@ -60,6 +60,34 @@ a:visited {
 	color:black;
 	
 	}
+.promo{
+    border-radius: 15px;
+    font-family: impact;
+    font-size: 70pt;
+    color: white;
+    background-color: red;
+    align-content: center;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    text-align: center;
+    text-indent: 7px;
+	cursor: pointer;
+    transition-duration: 0.4s;
+ }
+.promo:hover {
+	
+	background-color: #FFA600;
+	font-size: 85pt;
+	color:black;
+	
+	}
+
 .elemento{
 	
     border-radius: 15px;
