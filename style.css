@@ -63,7 +63,7 @@ a:visited {
 .promo{
     border-radius: 15px;
     font-family: impact;
-    font-size: 60pt;
+    font-size: 40pt;
     color: white;
     background-color: red;
     align-content: center;
@@ -83,7 +83,7 @@ a:visited {
 .promo:hover {
 	
 	background-color: #FFA600;
-	font-size: 65pt;
+	font-size: 60pt;
 	color:black;
 	
 	}
