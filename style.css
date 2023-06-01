@@ -166,6 +166,19 @@ a:visited {
   
     clear: right;
 }
+.pefectivo{
+    font-family: Impact;
+    font-size: 60pt;
+    color: black;
+    background-color: ffed3e;
+    display: inline-block;
+    border-radius: 10px;
+    text-indent: 5px;
+    text-align: right;
+    margin-bottom: 10px;
+  
+    clear: right;
+}
 .cantidad{    
 	font-family: Impact;
     font-size: 25pt;
