@@ -150,6 +150,8 @@ a:visited {
 	font-size: 25pt;
 	color: white;
         background-color: green;
+	 text-align: midle;
+        display: inline-block;
 	
 	
 }
