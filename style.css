@@ -146,8 +146,8 @@ a:visited {
 	
 }
 .comentario{
-	font-family:arial;
-	font-size: 30pt;
+	font-family:arial black;
+	font-size: 25pt;
 	color: white;
         background-color: green;
 	
@@ -168,9 +168,9 @@ a:visited {
 }
 .pefectivo{
     font-family: Impact;
-    font-size: 60pt;
+    font-size: 50pt;
     color: black;
-    background-color: #ffed3e;
+    background-color: #eddf5a;
     display: inline-block;
     border-radius: 10px;
     text-indent: 5px;
